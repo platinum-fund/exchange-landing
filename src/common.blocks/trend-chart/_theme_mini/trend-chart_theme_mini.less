@@ -1,0 +1,76 @@
+.trend-chart_theme_mini {
+  padding: 1.5rem 1.1rem 1.3rem 1.3rem;
+  width: 22.3rem;
+  max-width: 90vw;
+  height: 12.7rem;
+  box-sizing: border-box;
+  background: #262626;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.18);
+  }
+
+  .trend-chart__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+
+  .trend-chart__name {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+  }
+
+  .trend-chart__difference {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+
+    &._positive {
+      color: #6BD829;
+
+      &:after {
+        content: ' ▲';
+        font-size: 0.8em;
+      }
+    }
+
+    &._negative {
+      color: red;
+
+      &:after {
+        content: ' ▼';
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  .trend-chart__price {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+
+    &-main {
+      padding-right: 1.2rem;
+    }
+
+    &-second {
+      opacity: 0.5;
+    }
+  }
+
+  .trend-chart__volume {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+}
