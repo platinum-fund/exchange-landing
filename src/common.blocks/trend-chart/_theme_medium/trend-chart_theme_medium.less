@@ -1,0 +1,90 @@
+.trend-chart-section {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.trend-chart_theme_medium {
+  .trend-chart-section();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 37.2rem;
+  max-width: 90vw;
+  height: 39.6rem;
+  color: #333333;
+
+  .trend-chart__header {
+    .trend-chart-section();
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0 1.6rem;
+    padding: 0.8rem 1.2rem 0.8rem 2rem;
+    width: 80%;
+  }
+
+  .trend-chart__name {
+    padding-right: 0.7rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    opacity: 0.5;
+  }
+
+  .trend-chart__difference {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    white-space: nowrap;
+
+    &._positive {
+      color: #59BA1D;
+    }
+
+    &._negative {
+      color: red;
+    }
+  }
+
+  .trend-chart__body {
+    .trend-chart-section();
+    margin-bottom: auto;
+    width: 90%;
+  }
+
+  .trend-chart__graph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.2rem 1.2rem;
+  }
+
+  .trend-chart__graph-image {
+    max-width: 100%;
+  }
+
+  .trend-chart__footer {
+    .trend-chart-section();
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    width: 100%;
+  }
+
+  .trend-chart__price {
+    padding-right: 1rem;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+  }
+
+  .trend-chart__action-button {
+    &:after {
+      content: '▶';
+      display: flex;
+      align-items: center;
+      padding-left: 1rem;
+      font-size: 0.7em;
+    }
+  }
+}
