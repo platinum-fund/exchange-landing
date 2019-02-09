@@ -19,9 +19,6 @@
     padding-bottom: 1.5rem;
   }
 
-  .table__body {
-  }
-
   .table__row {
     width: 100%;
 
@@ -62,12 +59,11 @@
     cursor: pointer;
   }
 
-  .price {
+  .price-wrapper {
     display: flex;
   }
 
-  .price__main {
-
+  .main-price {
     &._negative {
       color: #FF5252;
     }
@@ -77,22 +73,11 @@
     }
   }
 
-  .price__second {
+  .second-price {
     opacity: 0.5;
 
     &:before {
       content: ' / ';
-    }
-  }
-
-  .price_difference {
-
-    &._negative {
-      color: #FF5252;
-    }
-
-    &._positive {
-      color: #6BD829;
     }
   }
 }
