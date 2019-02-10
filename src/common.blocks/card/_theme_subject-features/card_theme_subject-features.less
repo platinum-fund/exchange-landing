@@ -1,8 +1,13 @@
+@import '~src/common.blocks/imports/media';
+
 .card_theme_subject-features {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+  @media @under-sm {
+    flex-wrap: wrap;
+  }
 
   .card__main {
     padding: 2rem 0;
