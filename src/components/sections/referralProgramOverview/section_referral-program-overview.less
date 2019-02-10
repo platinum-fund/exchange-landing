@@ -1,0 +1,39 @@
+@import '~src/common.blocks/imports/media.less';
+
+.section_referral-program-overview {
+  .headline {
+    margin-right: auto;
+    margin-bottom: 4rem;
+  }
+
+  .wrapper_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -2rem;
+    width: 100%;
+
+    @media @under-sm {
+      flex-direction: column;
+    }
+
+    .card {
+      margin: 2rem;
+    }
+  }
+
+  .arrow-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27rem;
+
+    @media @under-sm {
+      height: 10rem;
+
+      .arrow-next__image {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
