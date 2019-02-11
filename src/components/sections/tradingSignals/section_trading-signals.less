@@ -1,0 +1,46 @@
+@import '~src/common.blocks/imports/media.less';
+
+.section_trading-signals {
+  .headline {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3rem;
+  }
+
+  .wrapper_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -2rem;
+    width: 100%;
+
+    @media @under-sm {
+      flex-direction: column;
+    }
+
+    .card {
+      margin: 2rem;
+    }
+  }
+
+  .card__header {
+    height: 25.4rem;
+    justify-content: center;
+  }
+
+  .card.arrow-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27rem;
+    filter: grayscale(100%);
+
+    @media @under-sm {
+      height: 10rem;
+
+      .arrow-next__image {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
