@@ -21,7 +21,6 @@ const KycOverview = () => (
             <img className="card__image" src={require('src/images/section-kyc-overview/diamond.svg')} />
           </div>
         </div>
-        <div className="card card_arrow" />
         <div className="card card_main">
           <h6 className="card__title">
             24h Withdrawal Limit:
@@ -33,7 +32,6 @@ const KycOverview = () => (
             <img className="card__image" src={require('src/images/section-kyc-overview/diamond.svg')} />
           </div>
         </div>
-        <div className="card card_arrow" />
         <div className="card card_main">
           <h6 className="card__title">
             Higher Limit
