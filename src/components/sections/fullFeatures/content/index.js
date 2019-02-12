@@ -13,12 +13,12 @@ const content = {
     {
       image: require('src/images/section-full-features/btc-usd.svg'),
       title: 'Fiat and Crypto trades',
-      description: 'XXX supports multiple??? fiat currencies, along with multiple digital assets, including established favorites like Bitcoin and Ethereum and new discoveries.'
+      description: 'FORBES exchange supports multiple fiat currencies, along with multiple digital assets, including established favorites like Bitcoin  and Ethereum and new discoveries.'
     },
     {
       image: require('src/images/section-full-features/market.svg'),
       title: 'STO markets',
-      description: 'XXX provides access to digital stocks trading, off market hours and 7 days a week.'
+      description: 'FORBES exchange provides access to digital stocks trading, off market hours and 7 days a week.'
     },
     {
       image: require('src/images/section-full-features/support.svg'),
@@ -43,13 +43,12 @@ const content = {
     {
       image: require('src/images/section-full-features/benefit.svg'),
       title: 'Native token for exclusive benefits',
-      description: 'XXX is a native token of the XXX platform. XXX gives users who hold and use it a range of exclusive benefits like discounts on trading fees,  airdrops and early access to token sales.'
+      description: 'FORBES token is a native token of the FORBES platform. FORBES gives users who hold and use it a range of exclusive benefits like discounts on trading fees,  airdrops and early access to token sales.'
     },
     {
       image: require('src/images/section-full-features/loans.svg'),
       title: 'Crypto loans',
-      description: 'Lending options allows you to put your XXX tokens to work and earn daily interest',
-      linkName: 'Learn more'
+      description: 'Lending options allows you to put your FORBES tokens to work and earn daily interest'
     },
     {
       image: require('src/images/section-full-features/design.svg'),

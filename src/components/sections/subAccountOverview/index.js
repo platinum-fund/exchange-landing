@@ -6,10 +6,10 @@ const SubAccountOverview = () => (
     <div className="wrapper_section-content">
       <div className="card card_theme_subject-features">
         <div className="card__main">
-          <h6 className="card__title hint_theme_default">
+          <h6 className="card__title">
             Sub-account
           </h6>
-          <div className="card__features">
+          <div className="card__subtitle">
             Multiple trading accounts within a single organization and provide control access on an account level
           </div>
         </div>

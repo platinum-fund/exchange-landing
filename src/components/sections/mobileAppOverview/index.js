@@ -5,7 +5,7 @@ const MobileAppOverview = () => (
     <div className="wrapper_section-content">
       <div className="card card_theme_subject-features">
         <div className="card__main">
-          <h5 className="card__title hint_theme_default">
+          <h5 className="card__title">
             FORBES Exchange Mobile App
           </h5>
           <h6 className="card__subtitle">
