@@ -4,7 +4,7 @@ import './section_terminal-overview.less'
 const TerminalOverview = () => (
   <section className="section section_terminal-overview">
     <div className="wrapper_section-content">
-      <div className="card_theme_subject-features">
+      <div className="card card_theme_subject-features">
         <div className="card__main">
           <h6 className="card__title hint_theme_default">
             Terminal

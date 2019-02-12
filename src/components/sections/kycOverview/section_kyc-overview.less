@@ -1,6 +1,8 @@
 @import '~src/common.blocks/imports/media';
 
 .section_kyc-overview {
+  min-width: 20rem;
+
   .headline {
     margin-bottom: 4rem;
     margin-right: auto;
@@ -13,7 +15,7 @@
 
   .wrapper_cards {
     display: flex;
-    margin: -3rem;
+    margin: -2.6rem;
     width: 100%;
 
     @media @under-sm {
@@ -27,11 +29,12 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
-    margin: 3rem;
+    margin: 2.6rem;
     text-align: center;
   }
 
   .card_arrow {
+
     @media @under-sm {
       height: 10rem;
 
@@ -49,9 +52,9 @@
     &:after {
       content: '';
       position: absolute;
-      left: -50%;
+      left: 10%;
       top: 50%;
-      width: 200%;
+      width: 80%;
       height: 3px;
       background: #EDBD41;
       border-radius: 1.5px;
