@@ -13,6 +13,10 @@ const LayoutPure = props => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{pageTitle}</title>
+        <meta
+          name="description"
+          content="Trusted Digital Stocks and Crypto Exchange Platform"
+        />
       </Helmet>
       <Navbar />
       <TranslationProvider language={language}>{children}</TranslationProvider>
