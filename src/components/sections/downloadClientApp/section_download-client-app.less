@@ -1,0 +1,73 @@
+@import '~src/common.blocks/imports/media.less';
+
+.section_download-client-app {
+  background: #262626;
+
+  .headline .title {
+    margin-bottom: 5.3rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: #fff;
+  }
+
+  .wrapper_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -3rem;
+    width: 100%;
+
+    @media @under-sm {
+      flex-direction: column;
+    }
+
+    .card:first-child {
+      order: -2;
+    }
+
+    &:after {
+      content: '';
+      order: -1;
+      margin: 0 auto;
+      width: 1px;
+      height: 14.3rem;
+      opacity: 0.2;
+      background: #fff;
+
+      @media @under-sm {
+        display: none;
+      }
+    }
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    max-width: 90vw;
+  }
+
+  .card__image-wrapper {
+    padding-right: 2.7rem;
+  }
+
+  .card__image {
+    max-width: 100%;
+  }
+
+  .card__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .card__list-item-icon {
+    padding-right: 0.9rem;
+  }
+
+  .card__list-item-content {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #FFFFFF;
+  }
+}

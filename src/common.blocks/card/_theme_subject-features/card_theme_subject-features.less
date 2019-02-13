@@ -1,0 +1,53 @@
+@import '~src/common.blocks/imports/media';
+
+.card_theme_subject-features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+
+  @media @under-sm {
+    flex-wrap: wrap;
+  }
+
+  .card__main {
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+    max-width: 60rem;
+  }
+
+  .card__title {
+    margin-bottom: 4rem;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #333333;
+  }
+
+  .card__subtitle {
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: 300;
+  }
+
+  .card__features {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    font-weight: 300;
+    color: #333333;
+  }
+
+  .card__feature {
+    padding-bottom: 2px;
+  }
+
+  .card__subject {
+    max-width: 90vw;
+  }
+
+  .card__subject-image {
+    max-width: 100%;
+  }
+}

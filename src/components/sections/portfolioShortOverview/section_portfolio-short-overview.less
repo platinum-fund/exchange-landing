@@ -1,0 +1,64 @@
+@import '~src/common.blocks/imports/media';
+
+.section_portfolio-short-overview {
+  position: relative;
+  z-index: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+    background: #262626;
+
+    @media @under-md {
+      top: 0;
+      height: 100%;
+    }
+  }
+
+  .wrapper_section-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media @under-sm {
+      flex-wrap: wrap;
+    }
+  }
+
+  .column_left {
+    width: 50.5rem;
+    max-width: 90vw;
+
+    .image {
+      max-width: 100%;
+    }
+  }
+
+  .column_right {
+    padding: 3rem;
+    width: 58.7rem;
+    max-width: 90vw;
+  }
+
+  .title {
+    margin-bottom: 4rem;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    font-weight: 700;
+    color: #EDBD41;
+  }
+
+  .description {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: 300;
+    color: #FFFFFF;
+  }
+}

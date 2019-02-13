@@ -1,0 +1,36 @@
+//MEDIA QUERIES
+@xs: 414;
+@sm: 768;
+@md: 992;
+@lg: 1200;
+@xlg: 1370;
+@xxlg: 1440;
+
+@xs-minus: 413;
+@sm-minus: 767;
+@md-minus: 991;
+@lg-minus: 1199;
+@xlg-minus: 1369;
+@xxlg-minus: 1439;
+
+//under medias
+@max-string-begin: '(max-width: ';
+@max-string-end: 'px)';
+
+@under-xxlg: ~'@{max-string-begin}@{xxlg-minus}@{max-string-end}';
+@under-xlg: ~'@{max-string-begin}@{xlg-minus}@{max-string-end}';
+@under-lg: ~'@{max-string-begin}@{lg-minus}@{max-string-end}';
+@under-md: ~'@{max-string-begin}@{md-minus}@{max-string-end}';
+@under-sm: ~'@{max-string-begin}@{sm-minus}@{max-string-end}';
+@under-xs: ~'@{max-string-begin}@{xs-minus}@{max-string-end}';
+
+//after medias
+@min-string-begin: '(min-width: ';
+@min-string-end: 'px)';
+
+@after-xxlg: ~'@{min-string-begin}@{xxlg}@{min-string-end}';
+@after-xlg: ~'@{min-string-begin}@{xlg}@{min-string-end}';
+@after-lg: ~'@{min-string-begin}@{lg}@{min-string-end}';
+@after-md: ~'@{min-string-begin}@{md}@{min-string-end}';
+@after-sm: ~'@{min-string-begin}@{sm}@{min-string-end}';
+@after-xs: ~'@{min-string-begin}@{xs}@{min-string-end}';
