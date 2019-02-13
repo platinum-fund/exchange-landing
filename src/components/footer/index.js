@@ -78,6 +78,12 @@ const Footer = props => (
               XRP
             </span>
           </p>
+          <div className="footer__connection">
+            <img className="footer__connection-icon" src={require('src/images/icons/connection.svg')}/>
+            <p className="footer__connection-status">
+              Connected
+            </p>
+          </div>
         </div>
       </div>
     </section>
