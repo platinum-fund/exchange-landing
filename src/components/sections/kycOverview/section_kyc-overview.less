@@ -3,23 +3,32 @@
 .section_kyc-overview {
   min-width: 20rem;
 
+  .wrapper_section-content {
+    align-items: unset;
+  }
+
   .headline {
+    display: flex;
+    align-items: center;
     margin-bottom: 4rem;
     margin-right: auto;
+    height: 7.8rem;
 
-    .hint {
-      padding-left: 2.1rem;
-      padding-right: 2.1rem;
+    .title {
+      font-size: 3.2rem;
+      line-height: 3.9rem;
+      letter-spacing: 0.04em;
+      text-align: left;
     }
   }
 
   .wrapper_cards {
     display: flex;
     margin: -2.6rem;
-    width: 100%;
 
     @media @under-sm {
       flex-direction: column;
+      align-items: center;
     }
   }
 
@@ -28,33 +37,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    margin: 2.6rem;
+    margin: 1.6rem;
+    width: 19.6rem;
+    max-width: 90vw;
     text-align: center;
-  }
 
-  .card_arrow {
-
-    @media @under-sm {
-      height: 10rem;
-
-      &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        width: 3px;
-        height: 100%;
-        background: #EDBD41;
-        border-radius: 1.5px;
-      }
-    }
-
-    &:after {
+    &:not(:last-child):after {
       content: '';
       position: absolute;
-      left: 10%;
+      right: -8rem;
       top: 50%;
-      width: 80%;
+      width: 13rem;
       height: 3px;
       background: #EDBD41;
       border-radius: 1.5px;
@@ -63,14 +56,19 @@
         display: none;
       }
     }
+
+    &:nth-child(2):after {
+      filter: grayscale(100%);
+    }
   }
 
   .card__title {
     margin-bottom: 1.725rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.2;
     color: #333333;
     opacity: 0.5;
+    white-space: nowrap;
 
     &-attention {
       font-weight: 700;

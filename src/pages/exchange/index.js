@@ -20,13 +20,6 @@ const IndexPage = () => (
     <main className="page_exchange">
       <Preface />
       <FullFeatures />
-      <section className="section">
-        <div className="wrapper_section-content">
-          <button className="button_theme_light">
-            Create  Account
-          </button>
-        </div>
-      </section>
       <TerminalOverview />
       <PortfolioShortOverview />
       <SubAccountOverview />

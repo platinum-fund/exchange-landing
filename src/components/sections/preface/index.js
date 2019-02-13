@@ -17,11 +17,6 @@ const Preface = () => (
           Invest in Cryptocurrencies and real digital stocks fast, easy and 24/7
         </h2>
       </header>
-      <div className="wrapper_main-actions">
-        <button className="button button_theme_light-main">
-          Create  Account
-        </button>
-      </div>
       <div className="wrapper_cards">
         <div className="card card_theme_main-feature">
           <h4 className="card__title">
