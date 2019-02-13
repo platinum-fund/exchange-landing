@@ -19,12 +19,11 @@ const IndexPage = () => (
   <Layout pageTitle="Platinum" language="en">
     <main className="page_exchange">
       <Preface />
-      <MarketTable />
       <FullFeatures />
       <section className="section">
         <div className="wrapper_section-content">
           <button className="button_theme_light">
-            Get Started
+            Create  Account
           </button>
         </div>
       </section>

@@ -8,8 +8,11 @@ const PortfolioShortOverview = () => (
         <img className="image" src={require('src/images/section-portfolio-short-overview/screen.png')}/>
       </div>
       <div className="column_right">
-        <h6 className="title">
-          Compiling information for personal records and tax obligations made as simple as a few mouse clicks. Specify a period time, currency, a single asset or an entire account.
+        <h4 className="title">
+          Detailed portfolio information with visualization for easy interpretation
+        </h4>
+        <h6 className="description">
+          A compiling information for personal records analysis and tax obligations made as simple as possible yet very detailed. Specify a time period, currency, a single asset or an entire account.
         </h6>
       </div>
     </div>
