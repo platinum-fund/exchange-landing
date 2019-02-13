@@ -5,9 +5,12 @@ const ReferralProgramOverview = () => (
   <section className="section section_referral-program-overview">
     <div className="wrapper_section-content">
       <header className="headline">
-        <h2 className="hint hint_theme_default">
-          XXX Referral Program
+        <h2 className="title title_theme_section">
+          Referral program
         </h2>
+        <h3 className="subtitle">
+          Invite your friends to trade on FORBES exchange, receive rewards and stand a chance to win prizes!
+        </h3>
       </header>
       <div className="wrapper_cards">
         <div className="card card_theme_default">

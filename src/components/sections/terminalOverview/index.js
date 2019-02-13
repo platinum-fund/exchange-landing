@@ -4,26 +4,25 @@ import './section_terminal-overview.less'
 const TerminalOverview = () => (
   <section className="section section_terminal-overview">
     <div className="wrapper_section-content">
-      <div className="card card_theme_subject-features">
-        <div className="card__main">
-          <h6 className="card__title hint_theme_default">
-            Terminal
-          </h6>
-          <div className="card__features">
-            <p className="card__feature">
-              XXX has 2 differend terminals:
-            </p>
-            <p className="card__feature">
-              - For fast trading;
-            </p>
-            <p className="card__feature">
-              - For PRO;
-            </p>
-          </div>
-        </div>
-        <div className="card__subject">
-          <img className="card__subject-image" src={require('src/images/section-terminal/screens.png')} />
-        </div>
+      <header className="headline">
+        <h2 className="title title_theme_section">
+          FORBES Exchange Trading Terminal Has Two Modes
+        </h2>
+        <h3 className="subtitle">
+          <span className="subtitle_theme_attention">
+            Basic:
+          </span>
+          for quick and easy trading
+        </h3>
+        <h3 className="subtitle">
+          <span className="subtitle_theme_attention">
+            Advanced:
+          </span>
+          for professional traders
+        </h3>
+      </header>
+      <div className="gallery">
+        <img className="gallery__image" src={require('src/images/section-terminal/screens.png')} />
       </div>
     </div>
   </section>

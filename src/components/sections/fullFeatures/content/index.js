@@ -13,7 +13,7 @@ const content = {
     {
       image: require('src/images/section-full-features/btc-usd.svg'),
       title: 'Fiat and Crypto trades',
-      description: 'FORBES exchange supports multiple fiat currencies, along with multiple digital assets, including established favorites like Bitcoin  and Ethereum and new discoveries.'
+      description: 'FORBES exchange supports multiple fiat currencies, along with multiple digital assets, including established favorites like Bitcoin and Ethereum and new discoveries.'
     },
     {
       image: require('src/images/section-full-features/market.svg'),

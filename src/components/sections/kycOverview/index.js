@@ -5,7 +5,7 @@ const KycOverview = () => (
   <section className="section section_kyc-overview">
     <div className="wrapper_section-content">
       <header className="headline">
-        <h2 className="hint hint_theme_default">
+        <h2 className="title title_theme_section">
           KYC
         </h2>
       </header>
