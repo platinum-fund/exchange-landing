@@ -1,0 +1,51 @@
+@import '~src/common.blocks/imports/media';
+
+.section_identity-verification {
+  min-width: 26rem;
+
+  .headline {
+    margin-bottom: 4rem;
+    margin-right: auto;
+    max-width: 37rem;
+
+    .title {
+      font-size: 3.2rem;
+      line-height: 3.9rem;
+      letter-spacing: 0.04em;
+      text-align: left;
+    }
+  }
+
+  .wrapper_cards {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+
+    .card:not(:last-child) {
+      margin-bottom: 2.4rem;
+    }
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+  }
+
+  .card__image-wrapper {
+    padding-right: 1.8rem;
+  }
+
+  .card__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #EDBD41;
+  }
+
+  .card__description {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    color: #333333;
+    opacity: 0.5;
+  }
+}

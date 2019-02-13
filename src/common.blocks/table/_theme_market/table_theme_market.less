@@ -1,0 +1,87 @@
+.table_theme_market {
+  display: block;
+  overflow-x: auto;
+  font-weight: 300;
+  color: #333333;
+  background: #FFFFFF;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  border: none;
+  border-collapse: collapse;
+
+  .table__head {
+    background: #FEFDFF;
+    border-bottom: 1px solid #ECECEC;
+  }
+
+  .table__head .table__cell {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .table__head .table__row:first-child .table__cell {
+    padding-top: 1.5rem;
+  }
+
+  .table__row {
+    width: 100%;
+
+    &:first-child .table__cell {
+      padding-top: 1rem;
+    }
+  }
+
+  .table__cell {
+    padding: 0.5rem 1.5rem 0.5rem 0;
+    width: 18.4rem;
+    min-width: 13rem;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    white-space: nowrap;
+
+    &:first-child {
+      display: flex;
+      align-items: center;
+      padding-left: 2.3rem;
+      width: 4.5rem;
+      min-width: 4.5rem;
+    }
+
+    &:last-child {
+      padding-right: 2.1rem;
+      width: 20rem;
+    }
+
+    &:nth-child(n + 5) {
+      text-align: right;
+    }
+  }
+
+  .favourite {
+    cursor: pointer;
+  }
+
+  .price-wrapper {
+    display: flex;
+  }
+
+  .main-price {
+    &._negative {
+      color: #FF5252;
+    }
+
+    &._positive {
+      color: #6BD829;
+    }
+  }
+
+  .second-price {
+    opacity: 0.5;
+
+    &:before {
+      content: ' / ';
+    }
+  }
+}

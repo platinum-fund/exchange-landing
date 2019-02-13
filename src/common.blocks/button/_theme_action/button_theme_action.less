@@ -1,0 +1,21 @@
+@import "../button";
+
+.button_theme_action {
+  .button();
+  padding: 0.7rem 2.5rem;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  background: #EDBD41;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #ebb72f;
+  }
+
+  &:active {
+    box-shadow: unset;
+  }
+}
