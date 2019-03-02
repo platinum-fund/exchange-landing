@@ -16,7 +16,7 @@ import MobileAppOverview from 'src/components/sections/mobileAppOverview'
 import DownloadClientApp from 'src/components/sections/downloadClientApp'
 
 const IndexPage = () => (
-  <Layout pageTitle="Forbes Exchange" language="en">
+  <Layout pageTitle="BTCNEXT Exchange" language="en">
     <main className="page_exchange">
       <Preface />
       <FullFeatures />
